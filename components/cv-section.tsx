@@ -3,45 +3,47 @@ import { Briefcase, GraduationCap, Award } from "lucide-react";
 
 const experience = [
   {
-    period: "2020 - Present",
-    role: "Senior Strategy Consultant",
-    company: "Global Consulting Partners",
+    period: "Feb 2025 - Present",
+    role: "Advanced Policy Analyst Program Manager",
+    company: "Treasury Board Secretariat",
     description:
-      "Leading digital transformation initiatives for Fortune 500 companies. Delivering strategic roadmaps and implementation plans that drive measurable business outcomes.",
+      "Manage a specialized federal program while overseeing HR, administration, and finance. Provide strategic policy guidance, lead cross-departmental coordination, and administer a $500K+ budget with strong governance controls.",
   },
   {
-    period: "2017 - 2020",
-    role: "Management Consultant",
-    company: "McKinley & Associates",
+    period: "Jun 2023 - Feb 2025",
+    role: "Risk Management Analyst / Planning and Performance Analyst",
+    company: "Public Services and Procurement Canada",
     description:
-      "Developed growth strategies for mid-market technology companies. Led cross-functional teams through complex operational improvements.",
+      "Built enterprise IT risk frameworks and executive dashboards for key ministerial priorities. Delivered risk assessments, stakeholder engagement, and reporting workflows using SQL, Python, Tableau, and Agile practices.",
   },
   {
-    period: "2014 - 2017",
-    role: "Business Analyst",
-    company: "Deloitte Digital",
+    period: "Feb 2023 - Jun 2023",
+    role: "Team Leader",
+    company: "Passport Canada",
     description:
-      "Conducted market analysis and competitive research for clients across financial services, healthcare, and technology sectors.",
+      "Led IT operations during a high-pressure period, supporting 250+ call center staff across extended shifts. Implemented training and technical job aids, and improved performance tracking with SQL and Python insights.",
+  },
+  {
+    period: "May 2021 - Apr 2023",
+    role: "Administrative and Financial Advisor",
+    company: "Passport Canada",
+    description:
+      "Managed IT asset and policy operations, built scheduling and HR dashboards, and automated recurring workflows. Introduced data-driven process improvements that increased call center scheduling efficiency by 20%.",
   },
 ];
 
 const education = [
   {
-    period: "2012 - 2014",
-    degree: "MBA, Strategy & Innovation",
-    school: "Harvard Business School",
-  },
-  {
-    period: "2008 - 2012",
-    degree: "BSc Economics",
-    school: "London School of Economics",
+    period: "2018 - 2021",
+    degree: "Bachelor of Commerce (Finance), Minor in Information Systems",
+    school: "McGill University - Desautels Faculty of Management",
   },
 ];
 
 const stats = [
-  { value: "10+", label: "Years Experience" },
-  { value: "150+", label: "Projects Delivered" },
-  { value: "95%", label: "Client Satisfaction" },
+  { value: "4+", label: "Years Experience" },
+  { value: "$500K+", label: "Program Budget Managed" },
+  { value: "250+", label: "Team Members Supported" },
 ];
 
 export function CVSection() {
@@ -123,14 +125,14 @@ export function CVSection() {
         </div>
         <div className="flex flex-wrap gap-3">
           {[
-            "Strategy Development",
-            "Digital Transformation",
+            "Program Management",
+            "Policy Analysis",
+            "Risk Management",
             "Process Automation",
-            "Cost Optimization",
-            "Revenue Growth",
-            "Change Management",
-            "Project Management",
-            "Team Leadership",
+            "Data Analysis (SQL/Python)",
+            "Dashboarding (Tableau/Excel)",
+            "Stakeholder Engagement",
+            "Bilingual: English/French/Arabic",
           ].map((skill) => (
             <span
               key={skill}

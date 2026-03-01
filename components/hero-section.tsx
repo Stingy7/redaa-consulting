@@ -13,8 +13,9 @@ export function HeroSection() {
           Increase earnings. Cut expenses.
         </h1>
         <p className="max-w-xl text-muted-foreground leading-relaxed text-sm md:text-base">
-          Stop wasting time on the same tasks. I help you scale without adding
-          headcount, grow revenue, reduce costs, and focus on what matters.
+          Finance and policy background with hands-on experience in risk,
+          operations, and automation. I help organizations streamline work,
+          improve decision quality, and deliver measurable outcomes.
         </p>
         <div className="flex flex-wrap items-center justify-center gap-4 mt-4">
           <Link
