@@ -9,7 +9,7 @@ const MIN_CENTS = 500; // $5
 const MAX_CENTS = 500000; // $5000
 
 export function PricingForm() {
-  const [amount, setAmount] = useState("10000"); // $100 default
+  const [amount, setAmount] = useState("5"); // $5 default
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
